@@ -1,0 +1,22 @@
+{
+  "name": "canvastankbattleserver-forheroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latiertiw/CanvasTankBattleServer-forHeroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latiertiw/CanvasTankBattleServer-forHeroku/issues"
+  },
+  "homepage": "https://github.com/latiertiw/CanvasTankBattleServer-forHeroku#readme",
+  "dependencies": {
+    "ws": "^6.2.1"
+  }
+}
