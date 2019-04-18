@@ -1,6 +1,6 @@
-var host = location.origin.replace(/^http/, 'ws')
-const WebSocket = require('ws')
-const wss = new WebSocket.Server(host)
+//var host = location.origin.replace(/^http/, 'ws')
+//const WebSocket = require('ws')
+const wss = new WebSocket.Server({ port: 3001 })
 
 let players = [] ;
 let player;
